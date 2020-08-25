@@ -8,7 +8,6 @@
 ![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-proffy.svg)
 ![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-proffy.svg?color=blueviolet)
 [![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
-![Open Source Love svg1](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)
 
 Aplicação Proffy usando Create React App, TypeScript, Axios e react-router-dom consumindo os recursos da API do [Node.js - Proffy](https://github.com/osvaldokalvaitir/nodejs-proffy).
 
