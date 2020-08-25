@@ -48,7 +48,7 @@ Esta é a primeira tela, que é a apresentação do projeto, podendo escolher en
 ### Estudar
 
 ![Study](/.github/assets/study.png)
-Nesta tela, é necessário escolher os filtros para exibir os professores disponíveis.
+Nesta tela, é necessário escolher os filtros para exibir os professores disponíveis, podendo também entrar em contato com o professor.
 
 ### Dar aulas - Seus dados
 
