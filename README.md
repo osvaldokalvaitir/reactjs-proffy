@@ -43,7 +43,7 @@ Aplicação Proffy usando Create React App, TypeScript, Axios e react-router-dom
 ### Home
 
 ![Home](/.github/assets/home.png)
-Esta é a primeira tela, que é a apresentação do projeto, podendo escolher entre estudar e dar aulas.
+Esta é a primeira tela, que é a apresentação do projeto, podendo escolher entre estudar e dar aulas, exibe também o total de conexões realizadas.
 
 ### Estudar
 
