@@ -1,104 +1,63 @@
-# ReactJS - Proffy
+<h1 align="center">
+    <img src="/.github/assets/logo.svg"
+    width="200px"
+    alt="Logo" />
+</h1>
 
-[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/osvaldokalvaitir/reactjs-proffy/blob/master/LICENSE)
-![](https://img.shields.io/github/package-json/v/osvaldokalvaitir/reactjs-proffy.svg)
-![](https://img.shields.io/github/last-commit/osvaldokalvaitir/reactjs-proffy.svg?color=red)
-![](https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-proffy.svg?color=yellow)
-![](https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-proffy.svg?color=lightgrey)
-![](https://img.shields.io/github/languages/code-size/osvaldokalvaitir/reactjs-proffy.svg)
-![](https://img.shields.io/github/repo-size/osvaldokalvaitir/reactjs-proffy.svg?color=blueviolet)
-[![made-for-VSCode](https://img.shields.io/badge/Made%20for-VSCode-1f425f.svg)](https://code.visualstudio.com/)
+<h3 align="center">
+  ReactJS - Proffy
+</h3>
 
-Aplicação Proffy usando Create React App, TypeScript, Axios e react-router-dom consumindo os recursos da API do [Node.js - Proffy](https://github.com/osvaldokalvaitir/nodejs-proffy).
+<p align="center">
+  :books: Proffy Application using Create React App, TypeScript, Axios, react-router-dom and consuming the features of the Node.js - Proffy API
+</p>
 
-## Índice
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/osvaldokalvaitir/reactjs-proffy.svg?color=00A83A">
 
-- [Capturas de Tela](#capturas-de-tela)
+  <img alt="GitHub language top" src="https://img.shields.io/github/languages/top/osvaldokalvaitir/reactjs-proffy.svg?color=00A83A">
 
-  - [Home](#home)
+  <a href="https://kalvaitir.com/">
+    <img alt="Made by Kalvaitir" src="https://img.shields.io/badge/made%20by-Kalvaitir-00A83A">
+  </a>
 
-  - [Estudar](#estudar)
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-00A83A">
+</p>
 
-  - [Dar aulas - Seus dados](#dar-aulas---seus-dados)
+<p align="center">
+  <a href="#computer-demo">Demo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#wrench-install-and-run">Install and run</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;<a href="#memo-license">License</a>
+</p>
 
-  - [Dar aulas - Sobre a aula](#dar-aulas---sobre-a-aula)
+## :computer: Demo
 
-- [Desenvolvimento](#desenvolvimento)
+![Demo](/.github/assets/demo.gif)
 
-  - [Configuração do Ambiente](#configuração-do-ambiente)
+## :wrench: Install and run
 
-  - [Instalação do Projeto](#instalação-do-projeto)
+_ps: Before running the app, start the [Node.js - Proffy](https://github.com/osvaldokalvaitir/nodejs-proffy) backend._
 
-  - [Execução do Projeto](#execução-do-projeto)
-  
-- [Utilizados no Projeto](#utilizados-no-projeto)
+Open terminal:
 
-  - [Bibliotecas](#bibliotecas)
+```sh
+# Clone this repo
+git clone https://github.com/osvaldokalvaitir/reactjs-proffy
 
-  - [APIs](#apis)
+# Entry in folder
+cd reactjs-proffy
 
-## Capturas de Tela
+# Install deps with npm or yarn
+npm install | yarn
 
-### Home
+# Launch the app with npm or yarn
+npm start | yarn start
+```
 
-![Home](/.github/assets/home.png)
-Esta é a primeira tela, que é a apresentação do projeto, podendo escolher entre estudar e dar aulas, exibe também o total de conexões realizadas.
+## :memo: License
 
-### Estudar
+This project is under the MIT license. See [LICENSE](/LICENSE) for more information.
 
-![Study](/.github/assets/study.png)
-Nesta tela, é necessário escolher os filtros para exibir os professores disponíveis, podendo também entrar em contato com o professor.
+---
 
-### Dar aulas - Seus dados
-
-![Teach - Data](/.github/assets/teach-data.png)
-Nesta tela, é necessário preencher os dados do professor no formulário de inscrição.
-
-### Dar aulas - Sobre a aula
-
-![Teach - Class](/.github/assets/teach-class.png)
-Ao rolar para esta última parte, é necessário preencher os dados sobre a aula, colocar os horários disponíveis e salvar o cadastro.
-
-## Desenvolvimento
-
-### Configuração do Ambiente
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/README.md) e siga `Configuração de Ambiente`.
-
-### Instalação do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/nodejs.md) e siga `Instalação de Projeto`.
-
-### Execução do Projeto
-
-Clique [aqui](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md) e siga `Execução de Projeto para Desenvolvimento` ou `Construção e Execução de Projeto para Produção`.
-
-## Utilizados no Projeto
-
-### Bibliotecas
-
-- [@types/react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/@types-react-router-dom.md)
-
-- [Create React App](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/create-react-app.md)
-
-- [Axios](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/axios.md)
-
-- [react-router-dom](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/react-router-dom.md)
-
-- [TypeScript](https://github.com/osvaldokalvaitir/projects-settings/blob/master/nodejs/libs/typescript.md)
-
-### APIs
-
-- **[Node.js - Proffy](https://github.com/osvaldokalvaitir/nodejs-proffy)**
-
-  - **Rotas**
-
-    - Classes
-
-      - Lista classes
-      - Cria classe
-
-    - Conexões
-
-      - Exibe total de conexões
-      - Cria conexões
+<p align="center">
+Developed with 💚 by <a href="https://www.linkedin.com/in/osvaldokalvaitir">Osvaldo Kalvaitir Filho</a>
+</p>
