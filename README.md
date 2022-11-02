@@ -49,7 +49,7 @@ cd reactjs-proffy
 npm install | yarn
 
 # Launch the app with npm or yarn
-npm start | yarn start
+npm run start | yarn start
 ```
 
 ## :memo: License
